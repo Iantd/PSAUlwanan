@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    
+
+</head>
+<body>
+    <div class="wrapper">
+
+    <form action="">
+        <h1>Sign up</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Email" required>
+        </div>
+    </form>
+    
+
+    <div class="input-box">
+        <input type="password" placeholder="Password" required>
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="Re-enter Password" required>
+    </div>
+
+
+    
+
+    <button id="submit" class="btn">Create Account</button>
+    <br><button id="google" class="btn">Create using Google</button>
+    <br><button id="facebook" class="btn">Create using Facebook</button>
+   
+    <div class="register-link">
+        <p>Already Have an Account?
+        <a id="register-link-anchor" href="#">Log in</a></p>
+    </div>
+
+    </div>
+    
+</body>
+<script>
+    var registerLink = document.getElementById("register-link-anchor"); 
+
+registerLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    window.location.href = "login.html"; e
+});
+
+
+</script>
+</html>
+
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            background-color: #eec661;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .container {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .searchbar {
+            background-color: aliceblue;
+            border-radius: 40px;
+            margin: 0;
+            padding: 15px 80px; 
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .btn {
+            margin: 0 30px;
+            border: none;
+            font-size: 35px;
+        }
+        
+        .bottom-buttons {
+            text-align: center;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+        
+        .bottom-buttons button {
+            margin: 0 40px;
+            border: none;
+            font-size: 35px; 
+            padding: 10px 20px; 
+        }
+        
+        .clicablelinks {
+            text-align: center;
+            margin: 0px 660px;
+            background-color: #fff;
+        }
+
+
+        .clicablelinks li {
+            border: 2px solid #fff;
+            background-color: #fff; 
+            padding: 10px; 
+            border-radius: 10px; 
+            display: grid;
+            margin: 0 10px 20px;
+        }
+
+        .clicablelinks a {
+            border-top: 0cm;
+            text-decoration: none;
+            font-size: 30px;
+            color: #333;
+            background-color: white;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .clicablelinks a:hover {
+            color: #555;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PSAUlwanan</h1>
+    
+    <div class="container" id="">
+        <form>
+            <button type="cart" class="btn"><i class='bx bxs-cart'></i></button>
+            <box-icon name='search-alt-2' class="search-icon"></box-icon>
+            <input type="text" placeholder="Search" class="searchbar">
+            <button type="profile" class="btn"><i class='bx bx-user-circle'></i></button>
+        </form>
+    </div>
+
+    <div class="bottom-buttons">
+        <button><i class='bx bx-home'></i> </button>
+        <button><i class='bx bx-plus'></i> </button>
+        <button><i class='bx bx-search-alt-2'></i> </button>
+    </div>
+    <div class="clicablelinks">
+        <ul>
+            <li><a href="">YOUR CART</a></li>
+            <li><a href="">ON PICKUP/MEETING</a></li>
+            <li><a href="">RECEIVED ORDERS</a></li>
+            <li><a href="">BLOG PAGE</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<script>
+  
+</script>
+</html>
